@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  height: 100.3vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  box-shadow: inset 0px 0px 18px 5px black;
+}
+main {
+  width: 70rem;
+  height: 40rem;
+  backdrop-filter: blur(200px);
+  filter: blur(0px);
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0px 0px 14px 1px rgb(255 255 255 / 72%);
+  position: relative;
+  border-radius: 52px;
+  background-color: #000000;
+}
+.player {
+  display: flex;
+  padding: 9rem;
+  flex: 50%;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+  pointer-events: all;
+  color: #ffffff;
+}
+.player-heading {
+  position: relative;
+  font-size: 54px;
+  bottom: 119px;
+}
+.score {
+  font-size: 50px;
+  position: relative;
+  bottom: 15%;
+}
+.score-box {
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  width: 93%;
+  height: 34%;
+  padding: 13px;
+  font-size: 32px;
+  top: 128px;
+  position: relative;
+  color: #000000;
+  box-shadow: inset 0px 0px 10px 0px;
+}
+.button {
+  position: absolute;
+  top: 29%;
+  font-size: larger;
+  border-radius: 20px;
+  width: 10rem;
+  background-color: rgb(255 255 255 / 65%);
+  border: 0px solid;
+}
+.hold {
+  top: 66%;
+  width: 7rem;
+}
+.dice {
+  top: 57%;
+}
+img {
+  position: absolute;
+  width: 7rem;
+  top: 37%;
+}
