@@ -70,11 +70,18 @@ main {
   top: 66%;
   width: 7rem;
 }
-.dice {
+.diceroll {
   top: 57%;
 }
 img {
   position: absolute;
   width: 7rem;
   top: 37%;
+}
+.player-active{
+  background-color: #c3c3c3;
+  color: #000000;
+}
+.hidden{
+  display: none;
 }
