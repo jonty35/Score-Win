@@ -49,9 +49,9 @@ dicerollEl.addEventListener("click" , function(){
                 player1El.classList.toggle("player-active");
                 score = 0;
                 active = active === 0 ? 1 : 0 ;
-                finalScore = [0 , 0];
-                currentScore0El.textContent = 0 ;
-                currentScore1El.textContent = 0 ;                
+                finalScore[active] = 0;
+                'currentScore${active}El'.textContent = 0 ;
+                              
                           
             }
              
